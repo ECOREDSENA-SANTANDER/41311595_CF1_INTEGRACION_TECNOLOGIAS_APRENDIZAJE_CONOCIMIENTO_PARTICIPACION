@@ -51,7 +51,49 @@ figcaption
     color: $color-sistema-texto  !important;
 .banner-interno__fondo
     background-image: url(../assets/curso/portada/fondo-banner-temas.png) !important
+.titulo-tercer-nivel
+  width: fit-content
+  max-width: 100%
+  position: relative
+  display: inline-flex
+  align-items: center
+  background-color: #650097
+  border-radius: 30px
+  padding-right: 16px
+  padding-left: 60px
+  min-height: 48px
+ 
+  @media screen and (max-width: $bp-min-md)
+    padding-left: 0px
+    border-radius: 0
 
+
+  &__icon
+    position: absolute
+    left: -10px
+    top: 50%
+    transform: translateY(-50%)
+    width: 70px
+    max-width: 85px
+    height: auto
+
+    @media screen and (max-width: $bp-min-md)
+      display: none
+
+  &__text
+    margin: 0
+    margin: 0 15px 0 10px
+    white-space: normal
+    word-break: break-word
+    color: $white
+
+//TABS-A
+.tabs-a__tab
+    background-color: #C199D5
+.tabs-a.color-acento-botones .tabs-a__tab__selected 
+    color: $color-sistema-texto !important
+.tabs-a__tab__text
+    text-wrap: initial;   
 /**************************************************************/
 /***CUSTOM STYLES***/
 /**************************************************************/
@@ -67,8 +109,9 @@ figcaption
     background-image: url(../assets/curso/temas/bg/2.svg)
 .bg-color
   &-1
-    background-color: $color-primario
-
+    background-color: #AFB8E3
+  &-2
+    background-color: #EFE5F4
 
 
 
@@ -84,9 +127,13 @@ figcaption
     background-color: $color-acento-botones
     
 
+.wcus
+  &-3
+    width: 12%
 
-
-
+.br
+  &-1
+    border-radius: 20px
 /**************************************************************/
 /*Media Queries*/  
 /**************************************************************/
