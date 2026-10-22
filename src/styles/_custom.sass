@@ -23,30 +23,34 @@
 
 .col-lg-7.col-xxl-5.ps-4.ps-sm-5.py-4.py-sm-5.banner-principal__info
   flex: 0 0 auto !important
-  width: 58.33333333% !important
+  width: 48.33333333% !important
 .banner-principal__img 
   padding-bottom: 0 !important;
 .banner-principal__row .banner-principal__img 
     width: 33%;
     
 .banner-principal p, .banner-principal h1, .banner-principal h2, .banner-principal h3, .banner-principal h4, .banner-principal h5, .banner-principal h6
-  color: $color-sistema-texto !important  
+  color: $white !important  
 
 .boton *, .boton--sm *,
 .barra-avance__boton--regresar span
-  color: $white !important
+  color: $color-sistema-texto !important
 .banner-interno__titulo h1, .banner-interno__titulo h2, 
 .banner-interno__titulo h3, .banner-interno__titulo h4, 
 .banner-interno__titulo h5, .banner-interno__titulo h6
-  color: $color-sistema-texto !important  
+  color: $white !important  
 .titulo-principal.color-acento-contenido .titulo-principal__numero span
   color: $white !important
+.titulo-principal.color-acento-contenido .titulo-principal__numero
+  background-color: $color-secundario
 figcaption 
     font-weight: normal !important
-
+.banner-interno__titulo__icono
+    background-color: $color-acento-botones
 .banner-interno__titulo__icono i
-    color: $color-acento-botones !important;
-
+    color: $color-sistema-texto  !important;
+.banner-interno__fondo
+    background-image: url(../assets/curso/portada/fondo-banner-temas.png) !important
 
 /**************************************************************/
 /***CUSTOM STYLES***/
@@ -60,13 +64,25 @@ figcaption
   margin-inline: -3.3rem
 .bg-fondo
   &-1
-    //background-image: url(../assets/curso/bg/3.svg)
+    background-image: url(../assets/curso/temas/bg/2.svg)
 .bg-color
   &-1
     background-color: $color-primario
 
 
 
+
+
+.bg
+  &-primario
+    background-color: $color-primario
+  &-secundario
+    background-color: $color-secundario
+  &-acento-contenido
+    background-color: $color-acento-contenido
+  &-acento-botones
+    background-color: $color-acento-botones
+    
 
 
 
@@ -86,9 +102,16 @@ figcaption
     margin-bottom: 2em  !important  
   .col-lg-7.col-xxl-5.ps-4.ps-sm-5.py-4.py-sm-5.banner-principal__info
     width: 90% !important
-
-  
- 
+  .banner-principal .tarjeta
+    background-image: none !important
+    background-color: #650097 !important
+  .bloque-texto-g
+    padding-top: 1.5rem !important;
+    padding-bottom: 1.5rem !important;
+  .slyder-a__btn--sigt
+    right: -10% !important;
+  .slyder-a__btn--atrs
+    left: -10% !important;
   
 //// TABLET MINI 768--------------------------------------
 @media screen and (max-width: $bp-min-md)
@@ -101,6 +124,19 @@ figcaption
 @media screen and (max-width: $bp-min-sm)
   .mb-cus
     margin-bottom: 2em  !important
-
+  .banner-principal .tarjeta
+    background-image: none !important
+    background-color: #650097 !important
+  .slyder-a__bullets__item
+    margin: 5px;
+    width: 5px;
+    height: 5px;
+  .slyder-a__btn--sigt, .slyder-a__btn--atrs
+    width: 30px;
+    height: 30px;
+  .slyder-a__btn--sigt
+    right: -9% !important;
+  .slyder-a__btn--atrs
+    left: -9% !important;
   
  
