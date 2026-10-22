@@ -52,7 +52,7 @@
     .row.justify-content-center.mb-5(data-aos='fade-right')
       .col-sm-12.col-lg-10
         figure
-          img(src='@/assets/curso/temas/t3/5.svg', alt='Ciclo de curación de contenidos: 1. Búsqueda, 2. Selección, 3. Organización, 4. Contextualización, 5. Distribución.')
+          img(src='@/assets/curso/temas/t3/5.svg')
 
     .titulo-tercer-nivel.mb-4(data-aos='fade-right')
       img.titulo-tercer-nivel__icon(src='@/assets/curso/temas/bg/1.svg')

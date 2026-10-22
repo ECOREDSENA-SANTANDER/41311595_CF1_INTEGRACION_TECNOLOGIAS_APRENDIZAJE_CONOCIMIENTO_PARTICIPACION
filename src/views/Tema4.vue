@@ -99,7 +99,7 @@
           p.mb-3 Este ejemplo evidencia la importancia de iniciar el diseño a partir de una necesidad concreta y establecer decisiones coherentes con los resultados esperados. Los procedimientos relacionados con la evaluación, publicación e implementación de los recursos educativos digitales se desarrollarán en el siguiente componente formativo.
           p.mb-0 Antes de continuar, escuche el pódcast “Antes de elegir la herramienta: diseñar un RED con propósito” y reflexione sobre cómo una necesidad de aprendizaje orienta las decisiones pedagógicas y tecnológicas durante el diseño de un recurso educativo digital.
         .col-sm-12.col-lg-5.d-none.d-lg-block
-          img(src='@/assets/curso/temas/t4/6.png', alt='')
+          img(src='@/assets/curso/temas/t4/6.png')
       
       img.mb-0.d-none.d-lg-block(src='@/assets/curso/temas/t4/7.svg')(data-aos='fade-right')
       .row.justify-content-center.g-0.bg-primario.mb-0(data-aos='fade-right')
