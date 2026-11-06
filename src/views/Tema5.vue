@@ -63,15 +63,15 @@
               .col-12
                 p.mb-0 Se debe reconocer la autoría de la obra, identificar su fuente y señalar los cambios realizados cuando corresponda.
 
-            .row(titulo="Compartir Igual (SA)")
+            .row(titulo="Compartir igual (SA)")
               .col-12
                 p.mb-0 Las adaptaciones deben distribuirse bajo la misma licencia o una compatible, conforme a las condiciones aplicables.
 
-            .row(titulo="No Comercial (NC)")
+            .row(titulo="No comercial (NC)")
               .col-12
                 p.mb-0 No se autoriza el uso de la obra con fines principalmente comerciales, de acuerdo con el alcance establecido por la licencia.
 
-            .row(titulo="Sin Derivadas (ND)")
+            .row(titulo="Sin derivadas (ND)")
               .col-12
                 p.mb-0 Permite compartir la obra original, pero no autoriza compartir versiones adaptadas o modificadas.
         .col-sm-12.col-lg-4.d-none.d-lg-block

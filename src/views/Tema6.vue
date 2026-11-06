@@ -38,7 +38,9 @@
         img.titulo-tercer-nivel__icon(src='@/assets/curso/temas/bg/1.svg')
         h3.titulo-tercer-nivel__text.mb-0.px-0.py-2 Imágenes y representaciones gráficas
 
-      p.mb-5(data-aos='fade-right') Las imágenes permiten ilustrar procedimientos, representar objetos, identificar características y comunicar relaciones que pueden resultar difíciles de explicar exclusivamente mediante palabras. Entre sus aplicaciones educativas se encuentran las fotografías, ilustraciones, diagramas y representaciones de procesos. Desde el punto de vista técnico, pueden clasificarse en imágenes de mapa de bits y gráficos vectoriales. Las primeras están compuestas por píxeles y son apropiadas para fotografías y representaciones con variaciones de color. Los gráficos vectoriales utilizan formas geométricas y permiten modificar su tamaño sin perder definición.
+      p.mb-3(data-aos='fade-right') Las imágenes permiten ilustrar procedimientos, representar objetos, identificar características y comunicar relaciones que pueden resultar difíciles de explicar exclusivamente mediante palabras. Entre sus aplicaciones educativas se encuentran las fotografías, ilustraciones, diagramas y representaciones de procesos. 
+      
+      p.mb-5(data-aos='fade-right') Desde el punto de vista técnico, pueden clasificarse en imágenes de mapa de bits y gráficos vectoriales. Las primeras están compuestas por píxeles y son apropiadas para fotografías y representaciones con variaciones de color. Los gráficos vectoriales utilizan formas geométricas y permiten modificar su tamaño sin perder definición.
 
       .row.justify-content-center.mb-5(data-aos='fade-right')
         .col-sm-12.col-lg-12
@@ -202,7 +204,7 @@
 
       .mb-4(data-aos='fade-right')
         .d-inline-block.bg-secundario.px-4.py-2.br-1
-          h4.mb-0.text-white ● Del boceto a la interacción
+          h4.mb-0.text-white ● Del boceto a la interacción educativa
       
 
       .row.justify-content-center.mb-5(data-aos='fade-right')

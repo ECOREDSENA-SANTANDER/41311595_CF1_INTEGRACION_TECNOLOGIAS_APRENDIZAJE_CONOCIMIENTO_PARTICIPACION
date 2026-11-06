@@ -109,7 +109,7 @@
           .tarjeta-eco.tarjeta-eco--amarillo.h-100
             .tarjeta-eco__numero 2
             .tarjeta-eco__header
-              h4.mb-0 Entorno personal de aprendizaje (PLE)
+              h4.mb-0 Entorno Personal de Aprendizaje (PLE)
               img.tarjeta-eco__icon(src='@/assets/curso/temas/t2/8.svg')
             .tarjeta-eco__body
               ul.lista-ul--color.mb-0
@@ -127,7 +127,7 @@
           .tarjeta-eco.tarjeta-eco--morado.h-100
             .tarjeta-eco__numero 3
             .tarjeta-eco__header
-              h4.mb-0 Recursos educativos abiertos (REA)
+              h4.mb-0 Recursos Educativos Abiertos (REA)
               img.tarjeta-eco__icon(src='@/assets/curso/temas/t2/9.svg')
             .tarjeta-eco__body
               ul.lista-ul--color.mb-0

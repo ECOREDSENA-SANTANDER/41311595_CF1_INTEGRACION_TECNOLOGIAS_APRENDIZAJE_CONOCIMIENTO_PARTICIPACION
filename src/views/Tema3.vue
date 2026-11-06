@@ -5,7 +5,7 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 3
-      h1 Gestión de información
+      h1 Gestión de la información
 
     .row.justify-content-center.mb-0.align-items-stretch.bg-color-1(data-aos='fade-right')
       .col-sm-12.col-lg-5.d-none.d-lg-block.px-0
@@ -36,7 +36,7 @@
       .col-sm-12.col-lg-5.d-none.d-lg-block
         img(src='@/assets/curso/temas/t3/4.png')
       .col-sm-12.col-lg-7
-        p.mb-4 La curación de contenidos no consiste únicamente en recopilar documentos o reunir enlaces procedentes de diferentes sitios. Su valor está en las decisiones que toma el instructor para identificar necesidades, analizar la pertinencia de los materiales y transformarlos en apoyos útiles para el aprendizaje.
+        p.mb-4 La curación de contenidos no consiste únicamente en recopilar documentos o reunir información procedente de diferentes sitios. Su valor está en las decisiones que toma el instructor para identificar necesidades, analizar la pertinencia de los materiales y transformarlos en apoyos útiles para el aprendizaje.
         p.mb-0 Cuando se realiza de manera organizada, permite mejorar la calidad de los recursos empleados en las actividades educativas, facilitar la actualización de contenidos y aprovechar información procedente de diferentes fuentes. También favorece la construcción de colecciones temáticas que pueden consultarse nuevamente y adaptarse a distintas situaciones de formación.
 
     .titulo-tercer-nivel.mb-4(data-aos='fade-right')
@@ -50,9 +50,43 @@
         h4.mb-0.text-white ● Ciclo de curación de contenidos
 
     .row.justify-content-center.mb-5(data-aos='fade-right')
-      .col-sm-12.col-lg-10
-        figure
-          img(src='@/assets/curso/temas/t3/5.svg')
+      .col-sm-12.col-lg-12.bg-color-2.p-5.br-1
+        ImagenInfografica.color-acento-botones.pt-5
+          template(v-slot:imagen)
+            figure
+              img(src='@/assets/curso/temas/t3/33.svg', alt='')
+    
+          .tarjeta.color-secundario.p-3(x="15%" y="60%" numero="1")
+            .h5.mb-2 BÚSQUEDA
+            p.mb-2 Identificar fuentes.
+            p.mb-0 #[b Apoyos sugeridos:] motores de búsqueda, Google Académico.
+          .tarjeta.color-secundario.p-3(x="15%" y="23%" numero="2")
+            .h5.mb-2 SELECCIÓN
+            p.mb-2 Evaluar y seleccionar información pertinente.
+            p.mb-0 #[b Apoyos sugeridos:] criterios de veracidad y actualidad.
+
+
+
+          .tarjeta.color-secundario.p-3(x="50%" y="3%" numero="3")
+            .h5.mb-2 ORGANIZACIÓN
+            p.mb-2 Clasificar datos.
+            p.mb-0 #[b Apoyos sugeridos:] Wakelet, Pinterest, Drive.
+
+
+
+          .tarjeta.color-secundario.p-3(x="85%" y="23%" numero="4")
+            .h5.mb-2 CONTEXTUALIZACIÓN
+            p.mb-2 Añadir valor pedagógico.
+            p.mb-0 #[b Apoyos sugeridos:] notas, resúmenes, guiones.
+
+
+
+          .tarjeta.color-secundario.p-3(x="85%" y="60%" numero="5")
+            .h5.mb-2 DISTRIBUCIÓN
+            p.mb-2 Socializar el recurso.
+            p.mb-0 #[b Apoyos sugeridos:] redes sociales, plataformas, LMS.
+
+        
 
     .titulo-tercer-nivel.mb-4(data-aos='fade-right')
       img.titulo-tercer-nivel__icon(src='@/assets/curso/temas/bg/1.svg')
@@ -164,11 +198,11 @@
           .tarjeta.bg-color-2.p-4(titulo="Marcadores sociales")
             p.mb-0 Permiten guardar, clasificar y recuperar sitios de interés mediante etiquetas o categorías. Pueden utilizarse para construir colecciones temáticas de materiales educativos y compartir recursos seleccionados.
           .tarjeta.bg-color-2.p-4(titulo="Lectores RSS")
-            p.mb-0 Facilitan el seguimiento de actualizaciones en portales educativos, blogs académicos, revistas digitales y sitios especializados desde un mismo espacio de consulta.
+            p.mb-0 Facilitan el seguimiento de publicaciones y novedades de fuentes que ofrecen canales de actualización. El instructor puede utilizarlos para consultar contenidos recientes de distintas publicaciones desde un mismo espacio.
           .tarjeta.bg-color-2.p-4(titulo="Almacenamiento en la nube")
-            p.mb-0 Permite conservar archivos en línea, organizarlos en carpetas, sincronizarlos entre dispositivos y compartirlos con permisos de visualización, comentario o edición.
+            p.mb-0 Facilita conservar documentos en servicios remotos y consultarlos desde distintos dispositivos autorizados. También puede apoyar el intercambio de materiales y la edición colaborativa, de acuerdo con los permisos configurados.
           .tarjeta.bg-color-2.p-4(titulo="Repositorios digitales")
-            p.mb-0 Reúnen materiales académicos, institucionales o educativos organizados con metadatos que facilitan su búsqueda, consulta y preservación.
+            p.mb-0 Permiten organizar y preservar materiales mediante categorías y datos descriptivos. Su utilización en la formación facilita localizar documentos y recursos educativos destinados a consultas posteriores.
 
     .titulo-tercer-nivel.mb-5(data-aos='fade-right')
       img.titulo-tercer-nivel__icon(src='@/assets/curso/temas/bg/1.svg')

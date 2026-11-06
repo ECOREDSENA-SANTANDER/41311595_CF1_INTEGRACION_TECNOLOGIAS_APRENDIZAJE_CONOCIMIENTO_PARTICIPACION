@@ -40,11 +40,11 @@
           img(src='@/assets/curso/temas/t4/4.png')
         .col-sm-12.col-lg-7
           p.mb-4 Para que la ruta metodológica sea efectiva, el recurso digital debe articularse de manera coherente con metodologías activas de enseñanza, como el Aprendizaje Basado en Proyectos (ABP) o el aula invertida. La eficacia de un medio didáctico no depende únicamente de su sofisticación tecnológica, sino de su capacidad para facilitar el aprendizaje en un contexto específico. En este sentido, la tecnología actúa como un medio que favorece la participación y la autonomía de los aprendices.
-          p.mb-0 La articulación pedagógica también exige considerar las condiciones de acceso, los conocimientos previos y las posibilidades de interacción de la población. Un recurso técnicamente funcional puede resultar poco pertinente cuando sus contenidos, actividades o formas de presentación no responden a las necesidades identificadasz. Por ello, las decisiones relacionadas con los medios digitales deben justificarse según su contribución al aprendizaje.
+          p.mb-0 La articulación pedagógica también exige considerar las condiciones de acceso, los conocimientos previos y las posibilidades de interacción de la población. Un recurso técnicamente funcional puede resultar poco pertinente cuando sus contenidos, actividades o formas de presentación no responden a las necesidades identificadas. Por ello, las decisiones relacionadas con los medios digitales deben justificarse según su contribución al aprendizaje.
 
       .titulo-tercer-nivel.mb-5
         img.titulo-tercer-nivel__icon(src='@/assets/curso/temas/bg/1.svg')
-        h3.titulo-tercer-nivel__text.mb-0.px-0.py-2 Decisiones pedagógicas en le diseño de un recurso digital
+        h3.titulo-tercer-nivel__text.mb-0.px-0.py-2 Decisiones pedagógicas en el diseño de un recurso digital
 
       .row.justify-content-center.mb-5.align-items-center(data-aos='fade-right')
         .col-sm-12.col-lg-3.d-none.d-lg-block

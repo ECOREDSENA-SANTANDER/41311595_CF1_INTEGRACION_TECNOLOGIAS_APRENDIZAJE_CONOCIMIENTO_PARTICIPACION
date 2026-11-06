@@ -207,7 +207,7 @@ export default {
     {
       termino: 'TAC',
       significado:
-        'tecnologías del aprendizaje y el conocimiento; enfoque pedagógico que orienta el uso de las tic hacia el aprendizaje y la construcción del conocimiento.',
+        'tecnologías del aprendizaje y el conocimiento; enfoque pedagógico que orienta el uso de las TIC hacia el aprendizaje y la construcción del conocimiento.',
     },
     {
       termino: 'TEP',
@@ -223,7 +223,7 @@ export default {
   referencias: [
     {
       referencia:
-        '<i>American Psychological Association</i>. (2020). <i>Publication manual of the American Psychological Association</i> (7th ed.).',
+        'American Psychological Association. (2020). Publication manual of the American Psychological Association (7.ª ed).',
     },
     {
       referencia:
@@ -238,20 +238,19 @@ export default {
         'Congreso de Colombia. (2018). Ley 1915 de 2018, por la cual se modifica la Ley 23 de 1982 y se establecen otras disposiciones en materia de derecho de autor y derechos conexos.',
     },
     {
-      referencia:
-        '<i>Creative Commons</i>. (s. f.). Licencias <i>Creative Commons</i>.',
+      referencia: 'Creative Commons. (s. f.). Licencias Creative Commons (CC).',
     },
     {
       referencia:
-        'Fundación Telefónica. (2013). Identidad digital: El nuevo usuario en el mundo digital.',
+        'Fundación Telefónica. (2013). Identidad digital: el nuevo usuario en el mundo digital.',
     },
     {
       referencia:
-        'Guzmán, J. L., Álvarez, W. E., & Oviedo, M. A. (2017). Las tecnologías de la información y la comunicación en la formación para el trabajo: Un relato desde el Servicio Nacional de Aprendizaje – SENA, Colombia. Tecnología y Productividad, 3(3), 53–61.',
+        'Guzmán, J. L., Álvarez, W. E., y Oviedo, M. A. (2017). Las tecnologías de la información y la comunicación en la formación para el trabajo: un relato desde el Servicio Nacional de Aprendizaje – SENA, Colombia. Tecnología y Productividad, 3(3), 53–61.',
     },
     {
       referencia:
-        '<i>Microsoft Azure</i>. (s. f.). ¿Qué es el almacenamiento en la nube?',
+        'Microsoft Azure. (s. f.). ¿Qué es el almacenamiento en la nube?',
     },
     {
       referencia:
@@ -322,17 +321,17 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Julian Fernando Vanegas Vega',
+          nombre: 'Julián Fernando Vanegas Vega',
           cargo: 'Diseñador de contenidos',
           centro: 'Centro Agroturístico - Regional Santander',
         },
         {
-          nombre: 'Lizeth Karina Manchego Suarez',
+          nombre: 'Lizeth Karina Manchego Suárez',
           cargo: 'Desarrolladora <em>full stack</em>',
           centro: 'Centro Agroturístico - Regional Santander',
         },
         {
-          nombre: 'Maria Alejandra Vera Briceño',
+          nombre: 'María Alejandra Vera Briceño',
           cargo: 'Animadora y productora audiovisual',
           centro: 'Centro Agroturístico - Regional Santander',
         },
@@ -342,12 +341,12 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: '--',
+          nombre: 'Yineth Ibette Gonzalez Quintero',
           cargo: 'Validadora y vinculadora de recursos educativos digitales',
           centro: 'Centro Agroturístico - Regional Santander',
         },
         {
-          nombre: '--',
+          nombre: 'Sandra Liliana Cristancho Cruz',
           cargo: 'Evaluadora de contenidos inclusivos y accesibles',
           centro: 'Centro Agroturístico - Regional Santander',
         },
