@@ -223,7 +223,7 @@ export default {
   referencias: [
     {
       referencia:
-        'American Psychological Association. (2020). Publication manual of the American Psychological Association (7.ª ed).',
+        'American Psychological Association. (2020). Publication manual of the American Psychological Association (7.ª ed.).',
     },
     {
       referencia:
@@ -238,31 +238,11 @@ export default {
         'Congreso de Colombia. (2018). Ley 1915 de 2018, por la cual se modifica la Ley 23 de 1982 y se establecen otras disposiciones en materia de derecho de autor y derechos conexos.',
     },
     {
-      referencia: 'Creative Commons. (s. f.). Licencias Creative Commons (CC).',
-    },
-    {
-      referencia:
-        'Fundación Telefónica. (2013). Identidad digital: el nuevo usuario en el mundo digital.',
-    },
-    {
-      referencia:
-        'Guzmán, J. L., Álvarez, W. E., y Oviedo, M. A. (2017). Las tecnologías de la información y la comunicación en la formación para el trabajo: un relato desde el Servicio Nacional de Aprendizaje – SENA, Colombia. Tecnología y Productividad, 3(3), 53–61.',
-    },
-    {
-      referencia:
-        'Microsoft Azure. (s. f.). ¿Qué es el almacenamiento en la nube?',
-    },
-    {
-      referencia:
-        'Ministerio de Educación Nacional. (2012). Recursos educativos digitales abiertos: Colombia.',
+      referencia: 'Creative Commons. (s. f.). Licencias Creative Commons.',
     },
     {
       referencia:
         'Ministerio de Educación Nacional. (2013). Competencias TIC para el desarrollo profesional docente.',
-    },
-    {
-      referencia:
-        'Ministerio de Tecnologías de la Información y las Comunicaciones. (2020). Cómo prevenir los riesgos en el entorno digital: 10 recomendaciones en el Día del Internet Seguro.',
     },
     {
       referencia:
@@ -271,18 +251,6 @@ export default {
     {
       referencia:
         'Organización de las Naciones Unidas para la Educación, la Ciencia y la Cultura. (2019b). Recomendación sobre los Recursos Educativos Abiertos (REA).',
-    },
-    {
-      referencia:
-        'Servicio Nacional de Aprendizaje. (2018). Las TIC en el contexto educativo.',
-    },
-    {
-      referencia:
-        'Servicio Nacional de Aprendizaje. (2020). De la frustración al empoderamiento, mi Caja TIC de herramientas. Academia Internacional SENA.',
-    },
-    {
-      referencia:
-        'Servicio Nacional de Aprendizaje. (2024). Guía pedagógica y didáctica para la incorporación de la tecnología en los procesos formativos/educativos. Centro de Gestión Tecnológica de Servicios.',
     },
   ],
   creditos: [
